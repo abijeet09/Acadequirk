@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    background-color:  #f8f7f5;
+}
+.body-navbar{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.navbar{
+    height: 60px;
+    background: white;
+    color: #0f1111;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.panel{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    size: 20px;
+}
+.panel-all{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 25px;
+}
+.logo{
+    margin-left: 15px;
+    display: flex;
+}
+img{
+    height: 40px;
+    width: 170px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid black;
+}
+/*  box3  */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 2px solid lightblue;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: 2px solid lightblue;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: lightblue;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid lightblue;
+
+}
+/*   box4   */
+.nav-second-box{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.nav-download{
+    margin-left: 20px;
+}
+.nav-about{
+    margin-left: 15px;
+}
+.nav-contact{
+    margin-left: 15px;
+}
+span{
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.nav-singin{
+    display: flex;
+    margin-left:15px;
+}
+.hero-section {
+    background-image: url(Minimalist\ Youtube\ Chabbel\ Art.png);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
+
+
+
+
+
+.last-nav{
+    height: 10rem;
+    background-color: #0f1111;
+}
